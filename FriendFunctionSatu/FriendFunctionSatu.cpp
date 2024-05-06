@@ -11,11 +11,13 @@ public:
     friend void setNama(mahasiswa& a, string);
 };
 
-void 
+void setNama(mahasiswa& a, string pNama) {
+    a.nama = pNama;
+}
 
 int main()
 {
-   
+    
     return 0;
 }
 
